@@ -1,2 +1,2 @@
-# Num-rologie
+# Numérologie
 Numérologie
