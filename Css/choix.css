@@ -1,0 +1,40 @@
+
+body{
+    overflow: hidden;
+    height: 100vh;
+    
+    font-family: sans-serif;
+    background-image: linear-gradient(to top, #00c6fb 0%, #005bea 100%);
+}
+
+.btn
+{
+    
+    text-align: center;
+    align-items: center;
+}
+
+h1
+{
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+font-family: 'Fjalla One', sans-serif;
+font-family: 'Kanit', sans-serif;
+font-family: 'Lobster', cursive;
+font-family: 'Rubik Wet Paint', cursive;
+font-family: 'Secular One', sans-serif;
+}
+
+
+.aca
+{
+    background-color: teal;
+    color: white;
+    cursor: pointer;
+    transition: all 0.2s;
+    text-decoration: none;
+    text-align: center;
+    width: 45px;
+    padding: 5px;
+   
+}

@@ -1,0 +1,129 @@
+
+
+:root{
+    --title: #f8c27a;
+    --textShadow: 0 2px 2px rbga(0,0,0,.7);
+    --boxShadow: 0 0px 10px rgba(0,0,0,.2)
+}
+
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 14px;
+    width: 100vw;
+    overflow: hidden;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+ background-image: linear-gradient(to top, #00c6fb 0%, #005bea 100%);
+}
+
+.container
+{
+    background-color: rgba(255,255,255,0.2);
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: var(--boxShadow);
+}
+
+h1{
+    font-family: 'Anton', sans-serif;
+font-family: 'Fjalla One', sans-serif;
+font-family: 'Kanit', sans-serif;
+font-family: 'Lobster', cursive;
+font-family: 'Rubik Wet Paint', cursive;
+font-family: 'Secular One', sans-serif;
+}
+
+
+p{
+    font-family: 'Luckiest Guy', cursive;
+
+    font-family: 'Quicksand', sans-serif;
+}
+
+.vies
+{
+    margin: 10px;
+}
+
+ion-icon
+{
+    font-size: 50px;
+    fill: rgb(255, 0, 0);
+}
+
+#inputBox
+{
+    background-color: #2acefc;
+    padding: 15px;
+    border: 5px;
+}
+
+#inputBox label 
+{
+    display: block;
+    margin-bottom: 8px;
+}
+
+input,
+button{
+    outline: none;
+    border: none;
+    padding: 3px 20px;
+    border-radius: 5px;
+}
+
+button
+{
+    background-color: teal;
+    color: white;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+button:hover{
+    transform: translateY(-2px);
+    background-color: rgb(3, 158, 158);
+}
+
+p#message
+{
+    margin: 20px auto 0 auto;
+}
+
+#rejouer
+{
+    display: none;
+    margin: 5px auto 0 auto;
+}
+
+#detail
+{
+    font-weight: bold;
+    font-size: 12px;
+    margin: 5px auto 0 auto;
+}
+
+
+
+.aca
+{
+    background-color: teal;
+    color: white;
+    cursor: pointer;
+    transition: all 0.2s;
+    text-decoration: none;
+    text-align: center;
+    width: 45px;
+    padding: 5px;
+}
+
